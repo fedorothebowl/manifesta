@@ -1,10 +1,10 @@
 {
-    "name": "Nome dell'App",
-    "short_name": "Nome Breve",
+    "name": "Manifesta",
+    "short_name": "Manifesta",
     "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
+    "display": "fullscreen",
+    "background_color": "#F472B6",
+    "theme_color": "#F472B6",
     "icons": [
       {
         "src": "icon.png",
