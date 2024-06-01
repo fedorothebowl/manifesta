@@ -1,4 +1,4 @@
-import './resources/scss/main.scss';
+import '/resources/scss/main.scss';
 import Alpine from 'alpinejs';
 
 import Answer from './resources/js/Answer';

@@ -25,7 +25,7 @@ export default function () {
 
     async fetchJsonData() {
       try {
-        let response = await fetch("/assets/question.json");
+        let response = await fetch('/assets/json/question.json');
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
