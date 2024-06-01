@@ -1,0 +1,13 @@
+@import "./fonts.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .h-custom {
+        height: calc(90vh - 225px);
+    }
+
+
+}
