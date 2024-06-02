@@ -1,6 +1,7 @@
 [
 {
     "question": "Qual è la capitale dell'Italia?",
+    "image":"/assets/images/test2.jpg",
     "answers": [
         {
             "answer": "La capitale dell'Italia è Roma. real.",
@@ -18,6 +19,7 @@
 },
 {
     "question": "Chi ha scritto 'La Divina Commedia'?",
+    "image":"/assets/images/test2.jpg",
     "answers": [
         {
             "answer": "La Divina Commedia è stata scritta da Dante Alighieri. real.",
@@ -35,6 +37,7 @@
 },
 {
     "question": "Qual è la formula chimica dell'acqua?",
+    "image":"/assets/images/test2.jpg",
     "answers": [
         {
             "answer": "La formula chimica dell'acqua è H2O. real.",
@@ -52,6 +55,7 @@
 },
 {
     "question": "In che anno è iniziata la Seconda Guerra Mondiale?",
+    "image":"/assets/images/test2.jpg",
     "answers": [
         {
             "answer": "La Seconda Guerra Mondiale è iniziata nel 1939. real.",
@@ -69,6 +73,7 @@
 },
 {
     "question": "Chi è l'autore del romanzo '1984'?",
+    "image":"/assets/images/test2.jpg",
     "answers": [
         {
             "answer": "L'autore del romanzo '1984' è George Orwell. real.",
@@ -86,6 +91,7 @@
 },
 {
     "question": "Qual è il pianeta più grande del sistema solare?",
+    "image":"/assets/images/test2.jpg",
     "answers": [
         {
             "answer": "Il pianeta più grande del sistema solare è Giove. real.",
@@ -103,6 +109,7 @@
 },
 {
     "question": "Chi ha dipinto la Mona Lisa?",
+    "image":"/assets/images/test2.jpg",
     "answers": [
         {
             "answer": "La Mona Lisa è stata dipinta da Leonardo da Vinci. real.",
@@ -120,6 +127,7 @@
 },
 {
     "question": "Qual è la lingua ufficiale del Brasile?",
+    "image":"/assets/images/test2.jpg",
     "answers": [
         {
             "answer": "La lingua ufficiale del Brasile è il portoghese. real.",
@@ -137,6 +145,7 @@
 },
 {
     "question": "Qual è l'elemento chimico con simbolo O?",
+    "image":"/assets/images/test2.jpg",
     "answers": [
         {
             "answer": "L'elemento chimico con simbolo O è l'ossigeno. real.",
@@ -154,6 +163,7 @@
 },
 {
     "question": "In che anno è stato lanciato il primo uomo sulla luna?",
+    "image":"/assets/images/test2.jpg",
     "answers": [
         {
             "answer": "Il primo uomo è stato lanciato sulla luna nel 1969. real.",
@@ -165,125 +175,6 @@
         },
         {
             "answer": "Il primo uomo è stato lanciato sulla luna nel 1971.",
-            "type": "ai"
-        }
-    ]
-},
-{
-    "question": "Qual è la velocità della luce?",
-    "answers": [
-        {
-            "answer": "La velocità della luce è circa 299,792,458 metri al secondo. real.",
-            "type": "real"
-        },
-        {
-            "answer": "La velocità della luce è circa 150,000,000 metri al secondo.",
-            "type": "ai"
-        },
-        {
-            "answer": "La velocità della luce è circa 500,000,000 metri al secondo.",
-            "type": "ai"
-        }
-    ]
-},
-{
-    "question": "Chi ha scritto 'I promessi sposi'?",
-    "answers": [
-        {
-            "answer": "I promessi sposi è stato scritto da Alessandro Manzoni. real.",
-            "type": "real"
-        },
-        {
-            "answer": "I promessi sposi è stato scritto da Giovanni Verga.",
-            "type": "ai"
-        },
-        {
-            "answer": "I promessi sposi è stato scritto da Italo Calvino.",
-            "type": "ai"
-        }
-    ]
-},
-{
-    "question": "Qual è il fiume più lungo del mondo?",
-    "answers": [
-        {
-            "answer": "Il fiume più lungo del mondo è il Nilo. real.",
-            "type": "real"
-        },
-        {
-            "answer": "Il fiume più lungo del mondo è il Mississippi.",
-            "type": "ai"
-        },
-        {
-            "answer": "Il fiume più lungo del mondo è il Gange.",
-            "type": "ai"
-        }
-    ]
-},
-{
-    "question": "In che anno è caduto il muro di Berlino?",
-    "answers": [
-        {
-            "answer": "Il muro di Berlino è caduto nel 1989. real.",
-            "type": "real"
-        },
-        {
-            "answer": "Il muro di Berlino è caduto nel 1985.",
-            "type": "ai"
-        },
-        {
-            "answer": "Il muro di Berlino è caduto nel 1991.",
-            "type": "ai"
-        }
-    ]
-},
-{
-    "question": "Qual è la formula matematica per la circonferenza di un cerchio?",
-    "answers": [
-        {
-            "answer": "La formula per la circonferenza di un cerchio è 2πr. real.",
-            "type": "real"
-        },
-        {
-            "answer": "La formula per la circonferenza di un cerchio è πr^2.",
-            "type": "ai"
-        },
-        {
-            "answer": "La formula per la circonferenza di un cerchio è 4πr.",
-            "type": "ai"
-        }
-    ]
-},
-{
-    "question": "Chi è il fondatore di Microsoft?",
-    "answers": [
-        {
-            "answer": "Il fondatore di Microsoft è Bill Gates. real.",
-            "type": "real"
-        },
-        {
-            "answer": "Il fondatore di Microsoft è Steve Jobs.",
-            "type": "ai"
-        },
-        {
-            "answer": "Il fondatore di Microsoft è Mark Zuckerberg.",
-            "type": "ai"
-        }
-    ]
-},
-{
-    "question": "Qual è la capitale del Giappone?",
-    "answers": [
-        {
-            "answer": "La capitale del Giappone è Tokyo. real.",
-            "type": "real"
-        },
-        {
-            "answer": "La capitale del Giappone è Osaka.",
-            "type": "ai"
-        },
-        {
-            "answer": "La capitale del Giappone è Kyoto.",
             "type": "ai"
         }
     ]
