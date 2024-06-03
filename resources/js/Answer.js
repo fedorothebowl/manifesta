@@ -8,7 +8,6 @@ export default function () {
     answers: [],
     wrongAnswers: [],
     score: 0,
-    popupFinalStep: false,
     checkAnswer: {
       showPopup: false,
       validateAnswer: undefined,
@@ -67,7 +66,6 @@ export default function () {
 
       this.answer.answers.forEach(el=>{
         if (el.type == "real"){
-          console.log(el.answer)
           this.$refs.test.innerHTML = el.answer;
         }
       });
@@ -84,8 +82,18 @@ export default function () {
     finalStep() {
       this.step = 10;
       this.$refs.stepper.style.width = 100 + "%";
-      this.popupFinalStep = true;
+      this.timeRestart();
       this.score >= 7 ? this.winner()  : this.loser();
+    },
+
+    timeRestart(){
+      console.log(this.$refs.timeToRestart)
+      let time = 10;
+      setInterval(() => {
+        time--;
+        this.$refs.timeToRestart.innerHTML = time;
+        time == 0 && (window.location.href="/");
+      }, 1000);
     },
 
     loser() {
