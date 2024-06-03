@@ -20,7 +20,7 @@ export default function () {
 
     async init() {
       await this.fetchJsonData();
-      this.$refs.stepper.style.width = this.step * 10 + "%";
+      this.$refs.stepper.style.width = this.step * 20 + "%";
       this.nextAnswer();
     },
 
@@ -51,10 +51,10 @@ export default function () {
 
     nextStep() {
       this.checkAnswer.showPopup = false;
-      if (this.step < 9) {
+      if (this.step < 4) {
         this.step++;
         this.nextAnswer();
-        this.$refs.stepper.style.width = this.step * 10 + "%";
+        this.$refs.stepper.style.width = this.step * 20 + "%";
       } else {
         this.finalStep();
       }
@@ -80,10 +80,10 @@ export default function () {
     },
 
     finalStep() {
-      this.step = 10;
+      this.step = 5;
       this.$refs.stepper.style.width = 100 + "%";
       this.timeRestart();
-      this.score >= 7 ? this.winner()  : this.loser();
+      this.score >= 4 ? this.winner()  : this.loser();
     },
 
     timeRestart(){

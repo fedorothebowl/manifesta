@@ -1,180 +1,180 @@
 [
 {
-    "question": "Qual è la capitale dell'Italia?",
-    "image":"/assets/images/test2.jpg",
+    "question": "Come affrontare la problematica della mancanza di materiale?",
+    "image":"/assets/images/answers/1.jpg",
     "answers": [
         {
-            "answer": "La capitale dell'Italia è Roma. real.",
+            "answer": "Più ordini da parte dei professori, ordine del materiale già a inizio dell’anno accademico",
             "type": "real"
         },
         {
-            "answer": "La capitale dell'Italia è Milano.",
+            "answer": "Creare un inventario digitale per monitorare costantemente le scorte disponibili",
             "type": "ai"
         },
         {
-            "answer": "La capitale dell'Italia è Napoli.",
+            "answer": "Proponiamo di istituire un sistema di approvvigionamento più efficiente e di cercare collaborazioni con aziende locali e sponsor per ottenere donazioni di materiali artistici",
             "type": "ai"
         }
     ]
 },
 {
-    "question": "Chi ha scritto 'La Divina Commedia'?",
-    "image":"/assets/images/test2.jpg",
+    "question": "Come si può migliorare la situazione in cui le sessioni d'esame sono troppo vicine alla fine delle lezioni?",
+    "image":"/assets/images/answers/2.jpg",
     "answers": [
         {
-            "answer": "La Divina Commedia è stata scritta da Dante Alighieri. real.",
+            "answer": "Avere più tempo tra la fine delle lezioni e gli esami ci permetterebbe di ripassare meglio",
             "type": "real"
         },
         {
-            "answer": "La Divina Commedia è stata scritta da Giovanni Boccaccio.",
+            "answer": "L'università potrebbe rivedere il calendario accademico per distanziare maggiormente le sessioni d'esame dalla fine delle lezioni",
             "type": "ai"
         },
         {
-            "answer": "La Divina Commedia è stata scritta da Petrarca.",
+            "answer": "Chi non ama un bel tour de force tra lezioni e esami, come una maratona senza fine? Perchè cambiare",
             "type": "ai"
         }
     ]
 },
 {
-    "question": "Qual è la formula chimica dell'acqua?",
-    "image":"/assets/images/test2.jpg",
+    "question": "Come si potrebbe migliorare la situazione dei corsi che risultano fragili e non sembrano garantire opportunità di lavoro?",
+    "image":"/assets/images/answers/3.jpg",
     "answers": [
         {
-            "answer": "La formula chimica dell'acqua è H2O. real.",
+            "answer": "Potrebbero studiarli in modo che tu possa consolidare competenze da inserire nel tuo curriculum o per indirizzarti direttamente verso un lavoro specifico in quel campo",
             "type": "real"
         },
         {
-            "answer": "La formula chimica dell'acqua è H2SO4.",
+            "answer": "Collaborazioni con aziende e professionisti del settore potrebbero aiutare a rendere i corsi più pratici e orientati alle competenze richieste",
             "type": "ai"
         },
         {
-            "answer": "La formula chimica dell'acqua è CO2.",
+            "answer": "Ci servirebbe un corso su 'Come trovare un lavoro vero'. Almeno non ci sentiremo come un naufrago in cerca di un'isola occupabile",
             "type": "ai"
         }
     ]
 },
 {
-    "question": "In che anno è iniziata la Seconda Guerra Mondiale?",
-    "image":"/assets/images/test2.jpg",
+    "question": "Cosa si potrebbe fare per risolvere la situazione problematica di finire il semestre delle lezioni a soli due giorni dall'inizio della sessione degli esami?",
+    "image":"/assets/images/answers/4.jpg",
     "answers": [
         {
-            "answer": "La Seconda Guerra Mondiale è iniziata nel 1939. real.",
+            "answer": "Anticipando l'inizio delle lezioni a metà settembre anziché a metà ottobre",
             "type": "real"
         },
         {
-            "answer": "La Seconda Guerra Mondiale è iniziata nel 1941.",
+            "answer": "Potremmo anche considerare l'aggiunta di sessioni d'esame extra per permettere agli studenti una migliore pianificazione e preparazione",
             "type": "ai"
         },
         {
-            "answer": "La Seconda Guerra Mondiale è iniziata nel 1914.",
+            "answer": "Costruiamo un robot che studia per noi e ci trasferisce le informazioni tramite Wi-Fi mentre guardiamo Netflix",
             "type": "ai"
         }
     ]
 },
 {
-    "question": "Chi è l'autore del romanzo '1984'?",
-    "image":"/assets/images/test2.jpg",
+    "question": "Come gestire corsi affollati in spazi limitati senza banchi e sedie sufficienti?",
+    "image":"/assets/images/answers/5.jpg",
     "answers": [
         {
-            "answer": "L'autore del romanzo '1984' è George Orwell. real.",
+            "answer": "Si potrebbe assumere più docenti o offrire lezioni sia in presenza che a distanza per corsi come Blender, Illustrator, Premiere o Figma",
             "type": "real"
         },
         {
-            "answer": "L'autore del romanzo '1984' è Aldous Huxley.",
+            "answer": "Utilizzare spazi aggiuntivi o ridisporre gli ambienti per massimizzare lo spazio disponibile",
             "type": "ai"
         },
         {
-            "answer": "L'autore del romanzo '1984' è Ray Bradbury.",
+            "answer": "Potrebbero organizzare una sorta di rotazione, dove alcuni studenti seguono la lezione in piedi mentre altri prendono posto, come una specie di gioco di ruolo ad hoc",
             "type": "ai"
         }
     ]
 },
 {
-    "question": "Qual è il pianeta più grande del sistema solare?",
-    "image":"/assets/images/test2.jpg",
+    "question": "Come gestire la mancanza di aule con computer per gli studenti?",
+    "image":"/assets/images/answers/6.jpg",
     "answers": [
         {
-            "answer": "Il pianeta più grande del sistema solare è Giove. real.",
+            "answer": "Dovrebbero investire in un'aula dotata di computer che possano almeno supportare i principali programmi Adobe, anche se non di ultima generazione o top di gamma",
             "type": "real"
         },
         {
-            "answer": "Il pianeta più grande del sistema solare è Saturno.",
+            "answer": "Implementando corsi online o affittando aule attrezzate temporaneamente",
             "type": "ai"
         },
         {
-            "answer": "Il pianeta più grande del sistema solare è Nettuno.",
+            "answer": "Gli studenti potrebbero portare i propri computer e condividerli durante le lezioni",
             "type": "ai"
         }
     ]
 },
 {
-    "question": "Chi ha dipinto la Mona Lisa?",
+    "question": "Come possiamo affrontare il problema delle lunghe code dovute alla segreteria che è aperta solo pochi giorni alla settimana?",
     "image":"/assets/images/test2.jpg",
     "answers": [
         {
-            "answer": "La Mona Lisa è stata dipinta da Leonardo da Vinci. real.",
+            "answer": "Aumentando i giorni di apertura della segreteria",
             "type": "real"
         },
         {
-            "answer": "La Mona Lisa è stata dipinta da Michelangelo.",
+            "answer": "Implementando un sistema di prenotazione online per ridurre le code e ottimizzare il tempo degli studenti",
             "type": "ai"
         },
         {
-            "answer": "La Mona Lisa è stata dipinta da Raffaello.",
+            "answer": "Noleggiamo una banda musicale per intrattenere gli studenti in coda, trasformando l'attesa in una festa con musica",
             "type": "ai"
         }
     ]
 },
 {
-    "question": "Qual è la lingua ufficiale del Brasile?",
+    "question": "Come gestiresti il fatto di aver pagato per un piano d'istruzione e ricevere invece un altro che non hai mai scelto?",
     "image":"/assets/images/test2.jpg",
     "answers": [
         {
-            "answer": "La lingua ufficiale del Brasile è il portoghese. real.",
+            "answer": "Potrei agire legalmente per ottenere il piano di studio per il quale ho pagato",
             "type": "real"
         },
         {
-            "answer": "La lingua ufficiale del Brasile è lo spagnolo.",
+            "answer": "Potrei contattare immediatamente l'amministrazione dell'università per esporre il problema e presentare documenti che attestino il piano di studio originariamente concordato. Chiedi un incontro per risolvere la questione",
             "type": "ai"
         },
         {
-            "answer": "La lingua ufficiale del Brasile è l'inglese.",
+            "answer": "Potrei radunare un esercito di pinguini arrabbiati per marciare fino alla segreteria e reclamare il mio piano!",
             "type": "ai"
         }
     ]
 },
 {
-    "question": "Qual è l'elemento chimico con simbolo O?",
+    "question": "Come affrontare gli atteggiamenti sbagliati dei professori che possono intimidire e influenzare gli studenti?",
     "image":"/assets/images/test2.jpg",
     "answers": [
         {
-            "answer": "L'elemento chimico con simbolo O è l'ossigeno. real.",
+            "answer": "Non ho una risposta",
             "type": "real"
         },
         {
-            "answer": "L'elemento chimico con simbolo O è l'oro.",
+            "answer": "È importante documentare i comportamenti inappropriati e, se necessario, segnalare il problema all'amministrazione dell'università",
             "type": "ai"
         },
         {
-            "answer": "L'elemento chimico con simbolo O è il potassio.",
+            "answer": "Parla con altri studenti o consulenti per ottenere supporto e, se necessario, affronta la situazione con l'amministrazione dell'università. La tua voce conta",
             "type": "ai"
         }
     ]
 },
 {
-    "question": "In che anno è stato lanciato il primo uomo sulla luna?",
+    "question": "Come possiamo affrontare il problema della sede in Via Tacca che è fatiscente?",
     "image":"/assets/images/answers/10.jpg",
     "answers": [
         {
-            "answer": "Il primo uomo è stato lanciato sulla luna nel 1969. real.",
+            "answer": "Bisognerebbe rifare tutte le finestre e le scale che vanno in aula Soppalco",
             "type": "real"
         },
         {
-            "answer": "Il primo uomo è stato lanciato sulla luna nel 1965.",
+            "answer": "Pianificare interventi di ristrutturazione o trasferire le attività in una sede più sicura",
             "type": "ai"
         },
         {
-            "answer": "Il primo uomo è stato lanciato sulla luna nel 1971.",
+            "answer": "Potremmo trasformare la sede in Via Tacca in una 'casa stregata' per attirare turisti e dare un senso alla muffa",
             "type": "ai"
         }
     ]
