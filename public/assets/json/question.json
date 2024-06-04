@@ -109,7 +109,7 @@
 },
 {
     "question": "Come possiamo affrontare il problema delle lunghe code dovute alla segreteria che è aperta solo pochi giorni alla settimana?",
-    "image":"/assets/images/test2.jpg",
+    "image":"/assets/images/answers/7.jpg",
     "answers": [
         {
             "answer": "Aumentando i giorni di apertura della segreteria",
@@ -127,7 +127,7 @@
 },
 {
     "question": "Come gestiresti il fatto di aver pagato per un piano d'istruzione e ricevere invece un altro che non hai mai scelto?",
-    "image":"/assets/images/test2.jpg",
+    "image":"/assets/images/answers/8.jpg",
     "answers": [
         {
             "answer": "Potrei agire legalmente per ottenere il piano di studio per il quale ho pagato",
@@ -145,7 +145,7 @@
 },
 {
     "question": "Come affrontare gli atteggiamenti sbagliati dei professori che possono intimidire e influenzare gli studenti?",
-    "image":"/assets/images/test2.jpg",
+    "image":"/assets/images/answers/9.jpg",
     "answers": [
         {
             "answer": "Non ho una risposta",
