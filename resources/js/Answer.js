@@ -46,7 +46,7 @@ export default function () {
     nextAnswer() {
       this.shuffleArray(this.data[this.step].answers); // mescolo le risposte
       this.answer = this.data[this.step];
-      this.$refs.image.src=this.answer.image;
+      // this.$refs.image.src=this.answer.image;
     },
 
     nextStep() {
@@ -98,6 +98,7 @@ export default function () {
 
     loser() {
       this.$refs.loserSong.play();
+      console.log( this.$refs.loserSong)
     },
 
     winner() {
