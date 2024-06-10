@@ -39,7 +39,7 @@
               <img class="max-w-[200px] absolute inset-0 m-auto" src="/assets/images/logo.png">
             </div>
 
-            <div class="lg:h-[calc(90dvh-16rem)] h-[calc(90dvh-8rem)] flex flex-col" x-show="step < 5">
+            <div class="lg:h-[calc(90dvh-16rem)] h-[calc(90dvh-100px)] flex flex-col" x-show="step < 5">
               <div class="border-b grid place-items-center relative">
                 <!-- Domanda -->
                 <h2 class="p-4 lg:px-12 text-center lg:text-2xl text-lg font-montserrat-bold text-gray-800 lg:leading-normal leading-[1.1]" x-text="answer.question"></h2>
@@ -48,7 +48,7 @@
               </div>
 
               <div class="h-full grid place-items-center transition-all duration-500 linear">
-                <div class="max-w-4xl w-full grid gap-4 text-center px-4">
+                <div class="max-w-4xl w-full grid lg:gap-4 gap-2.5 text-center px-4 lg:py-0 py-[10px]">
                   <template x-for="item in answer.answers">
                     <div class="border rounded-lg w-full bg-white lg:hover:text-white shadow-md lg:hover:bg-[#2E3F92] cursor-pointer transition-all ease duration-75 grid place-items-center" @click="handleScore($el);">
                       <span class="p-4 text-sm" x-text="item.answer" :data-type="item.type"></span>
