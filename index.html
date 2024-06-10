@@ -31,24 +31,24 @@
       </audio>
 
       <div class="grid place-items-center h-screen w-screen bg-no-repeat bg-cover bg-center overflow-hidden" >
-        <section class="lg:overflow-hidden overflow-y-auto lg:w-[calc(100vw-5rem)] lg:h-[calc(100dvh-5rem)] w-[calc(100vw-2rem)] h-[calc(100dvh-2rem)] bg-white shadow-[0px_0px_10px_2px_rgba(0,0,0,0.25)] rounded-lg bg-opacity-75">
+        <section class="lg:overflow-hidden overflow-y-auto lg:w-[calc(100vw-5rem)] lg:h-[calc(100dvh-5rem)] w-[calc(100vw-2rem)] h-[calc(90dvh)] bg-white shadow-[0px_0px_10px_2px_rgba(0,0,0,0.25)] rounded-lg bg-opacity-75">
             
-          <div class="relative">
+          <div class="sticky top-0 bg-white z-[1]">
               <img x-ref="banner" alt="" class="w-full lg:h-40 h-20 object-cover">
               <div class="w-full h-full bg-white bg-opacity-[15%] absolute top-0 left-0'"></div>
               <img class="max-w-[200px] absolute inset-0 m-auto" src="/assets/images/logo.png">
             </div>
 
-            <div class="h-[calc(90dvh-16rem)]" x-show="step < 5">
+            <div class="lg:h-[calc(90dvh-16rem)] h-[calc(90dvh-8rem)] flex flex-col" x-show="step < 5">
               <div class="border-b grid place-items-center relative">
                 <!-- Domanda -->
-                <h2 class="p-4 lg:px-12 text-center lg:text-2xl text-lg font-montserrat-bold text-gray-800" x-text="answer.question"></h2>
+                <h2 class="p-4 lg:px-12 text-center lg:text-2xl text-lg font-montserrat-bold text-gray-800 lg:leading-normal leading-[1.1]" x-text="answer.question"></h2>
                 <!-- Barra di avanzamento -->
                 <span class="absolute h-[3px] left-0 -bottom-[3px] bg-[#2E3F92] transition-all linear duration-500 w-0" x-ref="stepper"></span>
               </div>
 
               <div class="h-full grid place-items-center transition-all duration-500 linear">
-                <div class="max-w-4xl w-full grid gap-4 text-center px-4 lg:pb-0 py-4">
+                <div class="max-w-4xl w-full grid gap-4 text-center px-4">
                   <template x-for="item in answer.answers">
                     <div class="border rounded-lg w-full bg-white lg:hover:text-white shadow-md lg:hover:bg-[#2E3F92] cursor-pointer transition-all ease duration-75 grid place-items-center" @click="handleScore($el);">
                       <span class="p-4 text-sm" x-text="item.answer" :data-type="item.type"></span>
@@ -77,7 +77,7 @@
       </div>
 
       <!-- controllo della risposta -->
-      <div class="fixed w-screen h-screen inset-0 bg-black bg-opacity-75 grid place-items-center" x-show="checkAnswer.showPopup">
+      <div class="fixed w-screen h-screen inset-0 bg-[#191919cc] grid place-items-center z-[2]" x-show="checkAnswer.showPopup">
         <div class="fixed lg:w-[50vw] sm:w-[500px] w-[calc(100vw-2rem)] h-96 inset-0 m-auto rounded-md bg-white">
 
           <div class="flex flex-col justify-between h-full w-full">
