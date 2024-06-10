@@ -1,7 +1,6 @@
 [
 {
     "question": "Come affrontare la problematica della mancanza di materiale?",
-    "image":"/assets/images/answers/1.jpg",
     "answers": [
         {
             "answer": "Più ordini da parte dei professori, ordine del materiale già a inizio dell’anno accademico",
@@ -19,14 +18,13 @@
 },
 {
     "question": "Come si può migliorare la situazione in cui le sessioni d'esame sono troppo vicine alla fine delle lezioni?",
-    "image":"/assets/images/answers/2.jpg",
     "answers": [
         {
-            "answer": "Avere più tempo tra la fine delle lezioni e gli esami ci permetterebbe di ripassare meglio",
+            "answer": "L'università potrebbe rivedere il calendario accademico per distanziare maggiormente le sessioni d'esame dalla fine delle lezioni",
             "type": "real"
         },
         {
-            "answer": "L'università potrebbe rivedere il calendario accademico per distanziare maggiormente le sessioni d'esame dalla fine delle lezioni",
+            "answer": "Ridurre il carico dell'esame a favore di un aumento del carico didattico durante l'anno Accademico",
             "type": "ai"
         },
         {
@@ -37,7 +35,6 @@
 },
 {
     "question": "Come si potrebbe migliorare la situazione dei corsi che risultano fragili e non sembrano garantire opportunità di lavoro?",
-    "image":"/assets/images/answers/3.jpg",
     "answers": [
         {
             "answer": "Potrebbero studiarli in modo che tu possa consolidare competenze da inserire nel tuo curriculum o per indirizzarti direttamente verso un lavoro specifico in quel campo",
@@ -54,29 +51,27 @@
     ]
 },
 {
-    "question": "Cosa si potrebbe fare per risolvere la situazione problematica di finire il semestre delle lezioni a soli due giorni dall'inizio della sessione degli esami?",
-    "image":"/assets/images/answers/4.jpg",
+    "question": "Come si può migliorare la situazione dell'orario delle lezioni con tante sovrapposizioni di corsi?",
     "answers": [
         {
-            "answer": "Anticipando l'inizio delle lezioni a metà settembre anziché a metà ottobre",
+            "answer": "Non saprei, oramai c'ho fatto l'abitudine",
             "type": "real"
         },
         {
-            "answer": "Potremmo anche considerare l'aggiunta di sessioni d'esame extra per permettere agli studenti una migliore pianificazione e preparazione",
+            "answer": "Utilizzare un sistema di pianificazione più avanzato che tenga conto delle esigenze degli studenti e delle disponibilità dei docenti",
             "type": "ai"
         },
         {
-            "answer": "Costruiamo un robot che studia per noi e ci trasferisce le informazioni tramite Wi-Fi mentre guardiamo Netflix",
+            "answer": "Organizzare le lezioni in una realtà virtuale dove gli studenti possono essere in più posti contemporaneamente",
             "type": "ai"
         }
     ]
 },
 {
     "question": "Come gestire corsi affollati in spazi limitati senza banchi e sedie sufficienti?",
-    "image":"/assets/images/answers/5.jpg",
     "answers": [
         {
-            "answer": "Si potrebbe assumere più docenti o offrire lezioni sia in presenza che a distanza per corsi come Blender, Illustrator, Premiere o Figma",
+            "answer": "Si potrebbe assumere più docenti o offrire lezioni sia in presenza che a distanza",
             "type": "real"
         },
         {
@@ -91,10 +86,9 @@
 },
 {
     "question": "Come gestire la mancanza di aule con computer per gli studenti?",
-    "image":"/assets/images/answers/6.jpg",
     "answers": [
         {
-            "answer": "Dovrebbero investire in un'aula dotata di computer che possano almeno supportare i principali programmi Adobe, anche se non di ultima generazione o top di gamma",
+            "answer": "Dovrebbero investire in un'aula dotata di computer che possano almeno supportare i principali programmi",
             "type": "real"
         },
         {
@@ -109,7 +103,6 @@
 },
 {
     "question": "Come possiamo affrontare il problema delle lunghe code dovute alla segreteria che è aperta solo pochi giorni alla settimana?",
-    "image":"/assets/images/answers/7.jpg",
     "answers": [
         {
             "answer": "Aumentando i giorni di apertura della segreteria",
@@ -127,14 +120,13 @@
 },
 {
     "question": "Come gestiresti il fatto di aver pagato per un piano d'istruzione e ricevere invece un altro che non hai mai scelto?",
-    "image":"/assets/images/answers/8.jpg",
     "answers": [
         {
             "answer": "Potrei agire legalmente per ottenere il piano di studio per il quale ho pagato",
             "type": "real"
         },
         {
-            "answer": "Potrei contattare immediatamente l'amministrazione dell'università per esporre il problema e presentare documenti che attestino il piano di studio originariamente concordato. Chiedi un incontro per risolvere la questione",
+            "answer": "Potrei contattare immediatamente l'amministrazione dell'università per esporre il problema e presentare documenti che attestino il piano di studio originariamente concordato",
             "type": "ai"
         },
         {
@@ -145,7 +137,6 @@
 },
 {
     "question": "Come affrontare gli atteggiamenti sbagliati dei professori che possono intimidire e influenzare gli studenti?",
-    "image":"/assets/images/answers/9.jpg",
     "answers": [
         {
             "answer": "Non ho una risposta",
@@ -163,18 +154,51 @@
 },
 {
     "question": "Come possiamo affrontare il problema della sede in Via Tacca che è fatiscente?",
-    "image":"/assets/images/answers/10.jpg",
     "answers": [
         {
-            "answer": "Bisognerebbe rifare tutte le finestre e le scale che vanno in aula Soppalco",
+            "answer": "Pianificando interventi di ristrutturazione",
             "type": "real"
         },
         {
-            "answer": "Pianificare interventi di ristrutturazione o trasferire le attività in una sede più sicura",
+            "answer": "Si potrebbe trasferire le attività in una sede più sicura",
             "type": "ai"
         },
         {
             "answer": "Potremmo trasformare la sede in Via Tacca in una 'casa stregata' per attirare turisti e dare un senso alla muffa",
+            "type": "ai"
+        }
+    ]
+},
+{
+    "question": "Come si può affrontare il problema di alcuni docenti che non garantiscono un regolare svolgimento delle lezioni e avviano i corsi in ritardo rispetto al calendario annuale",
+    "answers": [
+        {
+            "answer": "Adottando un sistema di suppelenza",
+            "type": "real"
+        },
+        {
+            "answer": "Implentando un sistema di monitoraggio e valutazione per garantire il rispetto del calendario da parte dei docenti e prevedere sanzioni o incentivi per migliorare la puntualità",
+            "type": "ai"
+        },
+        {
+            "answer": "Dare ai docenti una sveglia programmata per far partire i corsi in orario",
+            "type": "ai"
+        }
+    ]
+},
+{
+    "question": "L'inefficienza dei mezzi di trasporto di Carrara è imbarazzante, come possiamo migliorare questa situazione?",
+    "answers": [
+        {
+            "answer": "L'accademia dovrebbe trattare con il comune per ottenere sconti sul ticker almeno fino a Carrara-Avenza ed aumentare la fasce orarie fino a mezzanotte",
+            "type": "real"
+        },
+        {
+            "answer": "Organizzando un flash mob davanti al comune tutti i lunedì mattina",
+            "type": "ai"
+        },
+        {
+            "answer": "Promuovendo collaborazioni tra enti locali e aziende di trasporto per favorire gli spostamenti oltre le attuali fasce orarie",
             "type": "ai"
         }
     ]

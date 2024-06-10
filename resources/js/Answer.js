@@ -18,9 +18,19 @@ export default function () {
       answers: [],
     },
 
+    bannerImages : [
+      '/assets/images/pattern/ansia.jpg',
+      '/assets/images/pattern/cina.jpg',
+      '/assets/images/pattern/hangover.jpg',
+      '/assets/images/pattern/tennis.jpg',
+      '/assets/images/pattern/tennis.jpg',
+    ],
+    newBannerImages : [],
+
     async init() {
       await this.fetchJsonData();
       this.$refs.stepper.style.width = this.step * 20 + "%";
+      this.newBannerImages = this.shuffleArray(this.bannerImages);
       this.nextAnswer();
     },
 
@@ -46,7 +56,12 @@ export default function () {
     nextAnswer() {
       this.shuffleArray(this.data[this.step].answers); // mescolo le risposte
       this.answer = this.data[this.step];
-      // this.$refs.image.src=this.answer.image;
+
+      if(this.newBannerImages.length != 0){
+        this.$refs.banner.src = this.newBannerImages[0];
+        this.newBannerImages.shift();
+      }
+
     },
 
     nextStep() {
