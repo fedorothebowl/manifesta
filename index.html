@@ -9,7 +9,7 @@
     <link rel="manifest" href="/manifest.json">
   </head>
 
-  <body class="antialiased relative">
+  <body class="antialiased relative" x-data="popUp();">
 
     <div class="fixed w-screen h-screen bg-white grid place-items-center z-[100] transition-opacity duration-200" 
       x-init="window.addEventListener('load', () => {
@@ -23,12 +23,15 @@
     <div x-data="Answer()" class="bg-cover bg-no-repeat" style="background-image:url('/assets/images/background.png')">
       
       <!-- Audio -->
-      <audio x-ref="winnerSong">
-        <source src="/assets/audio/win.mp3" type="audio/mp3">
-      </audio>
-      <audio x-ref="loserSong">
-        <source src="/assets/audio/lose.mp3" type="audio/mp3">
-      </audio>
+      <div>
+        <audio x-ref="winnerSong">
+          <source src="/assets/audio/win.mp3" type="audio/mp3">
+        </audio>
+        <audio x-ref="loserSong">
+          <source src="/assets/audio/lose.mp3" type="audio/mp3">
+        </audio>
+      </div>
+
 
       <div class="grid place-items-center h-screen w-screen bg-no-repeat bg-cover bg-center overflow-hidden" >
         <section class="lg:overflow-hidden overflow-y-auto lg:w-[calc(100vw-5rem)] lg:h-[calc(100dvh-5rem)] w-[calc(100vw-2rem)] h-[calc(90dvh)] bg-white shadow-[0px_0px_10px_2px_rgba(0,0,0,0.25)] rounded-lg bg-opacity-75">
@@ -51,7 +54,7 @@
                 <div class="max-w-4xl w-full grid lg:gap-4 gap-2.5 text-center px-4 lg:py-0 py-[10px]">
                   <template x-for="item in answer.answers">
                     <div class="border rounded-lg w-full bg-white lg:hover:text-white shadow-md lg:hover:bg-[#2E3F92] cursor-pointer transition-all ease duration-75 grid place-items-center" @click="handleScore($el);">
-                      <span class="p-4 text-sm" x-text="item.answer" :data-type="item.type"></span>
+                      <span class="p-4 lg:text-md text-sm" x-text="item.answer" :data-type="item.type"></span>
                     </div>
                   </template>
                 </div>
@@ -96,6 +99,61 @@
           </button>
         </div>
       </div>
+
+    </div>
+
+    <div class="absolute bottom-2 w-full px-4 flex items-center justify-center text-xs">
+      <button class="underline hover:opacity-50" @click="showIstruzioni = true">Istruzioni</button>
+      &nbsp;-&nbsp;
+      <button class="underline hover:opacity-50" @click="showCredits = true">Credits</button>
+    </div>
+
+    <!-- credits -->
+    <div class="fixed w-screen h-screen inset-0 bg-[#191919cc] grid place-items-center z-[2]" x-show="showCredits">
+      <div class="fixed lg:w-[50vw] sm:w-[500px] w-[calc(100vw-2rem)] h-max pb-4 inset-0 m-auto rounded-md bg-white space-y-2.5 flex flex-col">
+          
+          <div class="flex items-center justify-between bg-[#2E3F92] px-4 py-2 text-white rounded-t-md">
+            <h2 class="font-bold text-lg">Credits</h2>
+            <svg @click="showCredits = false" class="h-8 w-8 cursor-pointer" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#fff " stroke-width="1.5" stroke-linecap="round"></path> <path d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+          </div>
+          <div>
+            <p class="font-mediump px-4">“MANIFESTA” è un'installazione artistica multimediale che esplora, con un approccio ironico ai limiti della goliardia, le problematiche e le criticità che affliggono gli studenti  dell'Accademia di Belle Arti di Carrara.</p>
+          </div>
+          <div class="flex px-4">
+            <strong>Studenti:</strong>
+            &nbsp;
+            <span>Federico Petrucci e Ariele Giari</span>
+          </div>
+          <div class="flex px-4">
+            <strong>Corso:</strong>
+            &nbsp;
+            <span>Applicazioni digitale per l'arte</span>
+          </div>
+          <div class="flex px-4">
+            <strong>Docente:</strong>
+            &nbsp;
+            <span>Pasquale Direse</span>
+          </div>
+          <div>
+            <a href="" class="px-4 underline hover:opacity-50" target="_blank">Instagram</a>
+          </div>
+      </div>  
+    </div>
+
+    <!-- istruzioni -->
+    <div class="fixed w-screen h-screen inset-0 bg-[#191919cc] grid place-items-center z-[2]" x-show="showIstruzioni">
+      <div class="fixed lg:w-[50vw] sm:w-[500px] w-[calc(100vw-2rem)] h-max pb-4 inset-0 m-auto rounded-md bg-white space-y-2.5 flex flex-col">
+
+        <div class="flex items-center justify-between bg-[#2E3F92] px-4 py-2 text-white rounded-t-md">
+          <h2 class="font-bold text-lg">Istruzioni del Gioco</h2>
+          <svg @click="showIstruzioni = false" class="h-8 w-8 cursor-pointer" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#fff " stroke-width="1.5" stroke-linecap="round"></path> <path d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+        </div>
+
+        <div class="h-full flex items-center justify-center px-4">
+          <p>Il gioco di <strong>MANIFESTA</strong> ti invita a rispondere a 5 domande ispirate dalle segnalazioni degli studenti dell'Accademia di Belle Arti di Carrara. In questo quiz, dovrai capire se le risposte sono state date dagli studenti o generate da un'intelligenza artificiale. Alla fine, il punteggio finale decreterà se sei riuscito a distinguerti come vincitore.</p>
+        </div>
+        
+    </div>  
     </div>
 
     <script type="module" src="/main.js"></script>
