@@ -22,8 +22,9 @@ export default function () {
       '/assets/images/pattern/ansia.jpg',
       '/assets/images/pattern/cina.jpg',
       '/assets/images/pattern/hangover.jpg',
+      '/assets/images/pattern/piscina.png',
       '/assets/images/pattern/tennis.jpg',
-      '/assets/images/pattern/tennis.jpg',
+      '/assets/images/pattern/schifo.jpg',
     ],
     newBannerImages : [],
 
